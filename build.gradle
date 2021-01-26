@@ -26,6 +26,8 @@ dependencies {
 
 	//discord
 	implementation 'net.dv8tion:JDA:4.2.0_227'
+
+	compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
 }
 
 test {
